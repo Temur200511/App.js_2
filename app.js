@@ -51,16 +51,21 @@
 // }
 
 
-let A = Math.floor(Math.random() * 100) + 1;
+// 5) let A = Math.floor(Math.random() * 100) + 1;
 
-console.log("Random number A:", A);
+// console.log("Random number A:", A);
 
-if (A % 3 === 0 && A % 5 === 0) {
-    console.log("A soni 3 va 5 ga bo'linadi!");
-} else if (A % 5 === 0) {
-    console.log("A soni 5 ga bo'linadi!");
-} else if (A % 3 === 0) {
-    console.log("A soni 3 ga bo'linadi!");
-} else {
-    console.log("A soni 3 va 5 ga bo'linmaydi!");
-}
+// if (A % 3 === 0 && A % 5 === 0) {
+//     console.log("A soni 3 va 5 ga bo'linadi!");
+// } else if (A % 5 === 0) {
+//     console.log("A soni 5 ga bo'linadi!");
+// } else if (A % 3 === 0) {
+//     console.log("A soni 3 ga bo'linadi!");
+// } else {
+//     console.log("A soni 3 va 5 ga bo'linmaydi!");
+// }
+
+
+// let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// console.log(arr.length - arr[1]);
