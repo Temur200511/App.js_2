@@ -41,26 +41,26 @@
 // }
 
 
-let random = Math.random() * 10;
-random = Math.floor(random);
+// let random = Math.random() * 10;
+// random = Math.floor(random);
 
 
-if(random%5==0){
-    console.log("5ga bo'linadi");
+// if(random%5==0){
+//     console.log("5ga bo'linadi");
     
-}
+// }
 
 
- else if(random%3==0){
-    console.log("3ga bo'linadi");
-}
+let A = Math.floor(Math.random() * 100) + 1;
 
-else if(random%3==0 || random%5==0){
-    console.log("3 yoki 5ga bo'linadi");
-}       
+console.log("Random number A:", A);
 
-else
-{
-    console.log("3 yoki 5ga bo'linmaydi");
-
+if (A % 3 === 0 && A % 5 === 0) {
+    console.log("A soni 3 va 5 ga bo'linadi!");
+} else if (A % 5 === 0) {
+    console.log("A soni 5 ga bo'linadi!");
+} else if (A % 3 === 0) {
+    console.log("A soni 3 ga bo'linadi!");
+} else {
+    console.log("A soni 3 va 5 ga bo'linmaydi!");
 }
