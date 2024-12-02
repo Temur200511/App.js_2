@@ -41,8 +41,9 @@
 // }
 
 
-let random = Math.random();
+let random = Math.random() * 10;
 random = Math.floor(random);
+
 
 if(random%5==0){
     console.log("5ga bo'linadi");
